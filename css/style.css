@@ -157,7 +157,8 @@ h1{
    
 }
 #responsive{
-    display: none;
+    display: inline;
+    margin-left: 25%;
 }
 @media all and (min-width: 200px) and (max-width: 1024px) {
     .title {
@@ -215,6 +216,7 @@ h1{
         display: inline;
         z-index: 40;
         width: 100%;
+        margin-left: 0;
     }
 
  
